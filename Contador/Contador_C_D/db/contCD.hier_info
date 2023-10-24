@@ -1,0 +1,47 @@
+|contCD
+A <= decodificador:inst17.outA
+RESET => inst2.ACLR
+RESET => inst1.ACLR
+RESET => inst.ACLR
+CLOCK => inst3.IN0
+MODO => inst4.IN1
+MODO => inst15.IN0
+MODO => inst8.IN1
+MODO => inst16.IN0
+B <= decodificador:inst17.outB
+C <= decodificador:inst17.outC
+D <= decodificador:inst17.outD
+E <= decodificador:inst17.outE
+F <= decodificador:inst17.outF
+G <= decodificador:inst17.outG
+
+
+|contCD|decodificador:inst17
+outA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+W => instNW.IN0
+W => and8.IN0
+W => and9.IN0
+X => instNX.IN0
+X => and5.IN0
+X => and7.IN0
+X => and6.IN0
+X => and4.IN0
+Y => instNY.IN0
+Y => and3.IN1
+Y => and2.IN0
+Y => and7.IN1
+Y => and6.IN1
+Z => instNZ.IN0
+Z => and3.IN0
+Z => and5.IN1
+Z => and7.IN2
+Z => and9.IN1
+Z => and1.IN0
+outB <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+outC <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+outD <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+outE <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+outF <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+outG <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+

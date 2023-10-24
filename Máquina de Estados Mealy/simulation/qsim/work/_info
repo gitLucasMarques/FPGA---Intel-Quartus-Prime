@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/lanmarques/Downloads/Mealy/simulation/qsim
+vhard_block
+Z1 !s110 1697832131
+!i10b 1
+!s100 WTLK@Q=_8JJQMcUen3`g^1
+I8_Mze==7425ATnFN`eIg@1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1697832127
+Z4 8mealy.vo
+Z5 Fmealy.vo
+L0 1067
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1697832130.000000
+Z8 !s107 mealy.vo|
+Z9 !s90 -work|work|mealy.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vmealy
+R1
+!i10b 1
+!s100 elNV0Vb1^=A@g8dRY@RoC3
+IMnfJHXM_7H^D`=aPH`>dD3
+R2
+R0
+R3
+R4
+R5
+L0 32
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vmealy_vlg_vec_tst
+R1
+!i10b 1
+!s100 mD;5R`U7RKFRo2Kh`IDLR2
+IWH@XGHESiKGVU:ARk;ma;3
+R2
+R0
+w1697832126
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+!s108 1697832131.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11

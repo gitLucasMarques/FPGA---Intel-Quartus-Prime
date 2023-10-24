@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/lanmarques/Documents/Display_7_Segmentos/simulation/qsim
+vDisplay_7_Segmentos
+Z1 !s110 1693857365
+!i10b 1
+!s100 0PBd`@j``]Ecd`lFM_Me33
+Il<8V:9=<FT7m@^iS4FQLl2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1693857364
+Z4 8Display_7_Segmentos.vo
+Z5 FDisplay_7_Segmentos.vo
+L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1693857365.000000
+Z8 !s107 Display_7_Segmentos.vo|
+Z9 !s90 -work|work|Display_7_Segmentos.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@display_7_@segmentos
+vDisplay_7_Segmentos_vlg_vec_tst
+!s110 1693857366
+!i10b 1
+!s100 oNiI2>=Ngdi>e@kUQUIPT3
+IU;hbz>Kj^=TldR[KMU6i_3
+R2
+R0
+w1693857362
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+!s108 1693857366.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+n@display_7_@segmentos_vlg_vec_tst
+vhard_block
+R1
+!i10b 1
+!s100 YZJNG_9^cQ2`GdLeRT@7R0
+IYWn3VbjShHel9f_Dn5J;^0
+R2
+R0
+R3
+R4
+R5
+L0 372
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

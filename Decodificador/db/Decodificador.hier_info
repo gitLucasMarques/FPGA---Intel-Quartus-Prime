@@ -1,0 +1,9 @@
+|Decodificador
+PIN_G19 <= <GND>
+PIN_F19 <= <GND>
+PIN_E19 <= <GND>
+PIN_F21 <= <GND>
+PIN_Y23 => ~NO_FANOUT~
+PIN_Y24 => ~NO_FANOUT~
+
+

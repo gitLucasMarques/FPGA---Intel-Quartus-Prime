@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Sep 22 23:42:31 2023
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+Revision Name : contAut
+Top-level Entity Name : contAut
+Family : Cyclone IV E
+Total logic elements : 38
+    Total combinational functions : 38
+    Dedicated logic registers : 29
+Total registers : 29
+Total pins : 10
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

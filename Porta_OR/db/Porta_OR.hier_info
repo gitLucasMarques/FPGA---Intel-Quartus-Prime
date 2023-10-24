@@ -1,0 +1,6 @@
+|Porta_OR
+PIN_E18 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+PIN_Y24 => inst.IN0
+PIN_Y23 => inst.IN1
+
+

@@ -1,0 +1,13 @@
+|Caminho_por_Nomes
+PIN_E21 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+PIN_Y23 => inst.IN0
+PIN_Y23 => inst6.IN0
+PIN_Y23 => inst4.IN0
+PIN_Y24 => inst1.IN0
+PIN_Y24 => inst5.IN1
+PIN_Y24 => inst6.IN2
+PIN_Y24 => inst4.IN1
+PIN_AA22 => inst2.IN0
+PIN_AA22 => inst4.IN2
+
+

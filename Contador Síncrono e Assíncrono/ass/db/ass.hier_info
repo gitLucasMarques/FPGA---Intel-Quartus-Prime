@@ -1,0 +1,54 @@
+|assF
+A <= decodificadorBCD:inst1.OUT_A
+CLOCK => ass:inst.CLOCK
+RESET => ass:inst.RESET
+B <= decodificadorBCD:inst1.OUT_B
+C <= decodificadorBCD:inst1.OUT_C
+D <= decodificadorBCD:inst1.OUT_D
+E <= decodificadorBCD:inst1.OUT_E
+F <= decodificadorBCD:inst1.OUT_F
+G <= decodificadorBCD:inst1.OUT_G
+
+
+|assF|decodificadorBCD:inst1
+OUT_A <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+W_a => t_a.IN0
+W_a => inst.IN0
+W_a => inst6.IN2
+W_a => inst7.IN1
+Z_d => inst9.IN0
+Z_d => inst8.IN0
+Z_d => t_c.IN2
+Z_d => inst12.IN0
+Z_d => inst16.IN0
+X_b => inst9.IN1
+X_b => inst10.IN0
+X_b => t_c.IN1
+X_b => inst16.IN2
+X_b => inst21.IN1
+X_b => inst20.IN1
+X_b => inst22.IN1
+Y_c => t_a.IN2
+Y_c => inst8.IN1
+Y_c => inst11.IN0
+Y_c => inst13.IN1
+Y_c => inst14.IN0
+Y_c => inst18.IN1
+Y_c => inst22.IN0
+Y_c => inst23.IN1
+OUT_B <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+OUT_C <= inst24.DB_MAX_OUTPUT_PORT_TYPE
+OUT_D <= inst25.DB_MAX_OUTPUT_PORT_TYPE
+OUT_E <= inst26.DB_MAX_OUTPUT_PORT_TYPE
+OUT_F <= inst27.DB_MAX_OUTPUT_PORT_TYPE
+OUT_G <= inst28.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|assF|ass:inst
+D <= inst.DB_MAX_OUTPUT_PORT_TYPE
+RESET => inst4.IN0
+CLOCK => inst.CLK
+C <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+B <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
