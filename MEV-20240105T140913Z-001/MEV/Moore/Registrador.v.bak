@@ -1,0 +1,3 @@
+module Registrador(ATUAL, SAIDA);
+
+input 

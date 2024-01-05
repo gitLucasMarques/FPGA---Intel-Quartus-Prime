@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clock_inicial'
+Slack : -2.724
+TNS   : -49.120
+
+Type  : Slow 1200mV 85C Model Setup 'Divisor_de_Frequencia:Divisor_de_Frequencia|clock_dividido'
+Slack : -1.313
+TNS   : -4.588
+
+Type  : Slow 1200mV 85C Model Hold 'clock_inicial'
+Slack : 0.639
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Divisor_de_Frequencia:Divisor_de_Frequencia|clock_dividido'
+Slack : 0.950
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock_inicial'
+Slack : -3.000
+TNS   : -37.695
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Divisor_de_Frequencia:Divisor_de_Frequencia|clock_dividido'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 0C Model Setup 'clock_inicial'
+Slack : -2.397
+TNS   : -41.676
+
+Type  : Slow 1200mV 0C Model Setup 'Divisor_de_Frequencia:Divisor_de_Frequencia|clock_dividido'
+Slack : -1.093
+TNS   : -3.785
+
+Type  : Slow 1200mV 0C Model Hold 'clock_inicial'
+Slack : 0.584
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Divisor_de_Frequencia:Divisor_de_Frequencia|clock_dividido'
+Slack : 0.861
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock_inicial'
+Slack : -3.000
+TNS   : -37.695
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Divisor_de_Frequencia:Divisor_de_Frequencia|clock_dividido'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Fast 1200mV 0C Model Setup 'clock_inicial'
+Slack : -0.804
+TNS   : -10.715
+
+Type  : Fast 1200mV 0C Model Setup 'Divisor_de_Frequencia:Divisor_de_Frequencia|clock_dividido'
+Slack : -0.104
+TNS   : -0.201
+
+Type  : Fast 1200mV 0C Model Hold 'clock_inicial'
+Slack : 0.291
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Divisor_de_Frequencia:Divisor_de_Frequencia|clock_dividido'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock_inicial'
+Slack : -3.000
+TNS   : -31.821
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Divisor_de_Frequencia:Divisor_de_Frequencia|clock_dividido'
+Slack : -1.000
+TNS   : -4.000
+
+------------------------------------------------------------

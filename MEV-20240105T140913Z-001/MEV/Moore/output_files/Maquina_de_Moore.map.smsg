@@ -1,0 +1,11 @@
+Info (10281): Verilog HDL Declaration information at Decodificador.v(3): object "A" differs only in case from object "a" in the same scope File: /home/aluno/Documentos/Moore/Decodificador.v Line: 3
+Info (10281): Verilog HDL Declaration information at Decodificador.v(3): object "B" differs only in case from object "b" in the same scope File: /home/aluno/Documentos/Moore/Decodificador.v Line: 3
+Info (10281): Verilog HDL Declaration information at Decodificador.v(3): object "C" differs only in case from object "c" in the same scope File: /home/aluno/Documentos/Moore/Decodificador.v Line: 3
+Info (10281): Verilog HDL Declaration information at Decodificador.v(3): object "D" differs only in case from object "d" in the same scope File: /home/aluno/Documentos/Moore/Decodificador.v Line: 3
+Info (10281): Verilog HDL Declaration information at Maquina_de_Moore.v(8): object "a" differs only in case from object "A" in the same scope File: /home/aluno/Documentos/Moore/Maquina_de_Moore.v Line: 8
+Info (10281): Verilog HDL Declaration information at Maquina_de_Moore.v(8): object "b" differs only in case from object "B" in the same scope File: /home/aluno/Documentos/Moore/Maquina_de_Moore.v Line: 8
+Info (10281): Verilog HDL Declaration information at Maquina_de_Moore.v(8): object "c" differs only in case from object "C" in the same scope File: /home/aluno/Documentos/Moore/Maquina_de_Moore.v Line: 8
+Info (10281): Verilog HDL Declaration information at Maquina_de_Moore.v(8): object "d" differs only in case from object "D" in the same scope File: /home/aluno/Documentos/Moore/Maquina_de_Moore.v Line: 8
+Info (10281): Verilog HDL Declaration information at Maquina_de_Moore.v(8): object "e" differs only in case from object "E" in the same scope File: /home/aluno/Documentos/Moore/Maquina_de_Moore.v Line: 8
+Info (10281): Verilog HDL Declaration information at Maquina_de_Moore.v(8): object "f" differs only in case from object "F" in the same scope File: /home/aluno/Documentos/Moore/Maquina_de_Moore.v Line: 8
+Info (10281): Verilog HDL Declaration information at Maquina_de_Moore.v(8): object "g" differs only in case from object "G" in the same scope File: /home/aluno/Documentos/Moore/Maquina_de_Moore.v Line: 8

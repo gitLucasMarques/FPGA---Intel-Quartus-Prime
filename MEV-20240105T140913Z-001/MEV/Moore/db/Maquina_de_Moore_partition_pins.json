@@ -1,0 +1,105 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ATUAL[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ATUAL[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ATUAL[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ATUAL[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PROX[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PROX[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PROX[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PROX[3]",
+					"strict" : false
+				},
+				{
+					"name" : "clock_dividido",
+					"strict" : false
+				},
+				{
+					"name" : "S[0]",
+					"strict" : false
+				},
+				{
+					"name" : "S[1]",
+					"strict" : false
+				},
+				{
+					"name" : "S[2]",
+					"strict" : false
+				},
+				{
+					"name" : "S[3]",
+					"strict" : false
+				},
+				{
+					"name" : "a",
+					"strict" : false
+				},
+				{
+					"name" : "b",
+					"strict" : false
+				},
+				{
+					"name" : "c",
+					"strict" : false
+				},
+				{
+					"name" : "d",
+					"strict" : false
+				},
+				{
+					"name" : "e",
+					"strict" : false
+				},
+				{
+					"name" : "f",
+					"strict" : false
+				},
+				{
+					"name" : "g",
+					"strict" : false
+				},
+				{
+					"name" : "DOWN",
+					"strict" : false
+				},
+				{
+					"name" : "UP",
+					"strict" : false
+				},
+				{
+					"name" : "RESET",
+					"strict" : false
+				},
+				{
+					"name" : "clock_inicial",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
