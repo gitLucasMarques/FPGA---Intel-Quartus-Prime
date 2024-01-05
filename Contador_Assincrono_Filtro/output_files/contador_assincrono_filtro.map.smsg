@@ -1,0 +1,4 @@
+Info (10281): Verilog HDL Declaration information at decodificador.v(1): object "A" differs only in case from object "a" in the same scope File: C:/Users/lanmarques/Desktop/Contador_Assincrono_Filtro/decodificador.v Line: 1
+Info (10281): Verilog HDL Declaration information at decodificador.v(1): object "B" differs only in case from object "b" in the same scope File: C:/Users/lanmarques/Desktop/Contador_Assincrono_Filtro/decodificador.v Line: 1
+Info (10281): Verilog HDL Declaration information at decodificador.v(1): object "C" differs only in case from object "c" in the same scope File: C:/Users/lanmarques/Desktop/Contador_Assincrono_Filtro/decodificador.v Line: 1
+Info (10281): Verilog HDL Declaration information at decodificador.v(1): object "D" differs only in case from object "d" in the same scope File: C:/Users/lanmarques/Desktop/Contador_Assincrono_Filtro/decodificador.v Line: 1

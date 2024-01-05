@@ -1,0 +1,65 @@
+|contador_assincrono_filtro
+clock_inicial => clock_inicial.IN1
+clock_filtro => clock_filtro.IN1
+reset => reset.IN1
+clock_final << clock_final.DB_MAX_OUTPUT_PORT_TYPE
+S[0] << S[0].DB_MAX_OUTPUT_PORT_TYPE
+S[1] << S[1].DB_MAX_OUTPUT_PORT_TYPE
+S[2] << S[2].DB_MAX_OUTPUT_PORT_TYPE
+S[3] << S[3].DB_MAX_OUTPUT_PORT_TYPE
+a << decodificador:decodificador.port4
+b << decodificador:decodificador.port5
+c << decodificador:decodificador.port6
+d << decodificador:decodificador.port7
+e << decodificador:decodificador.port8
+f << decodificador:decodificador.port9
+g << decodificador:decodificador.port10
+seg[0] << <GND>
+seg[1] << <GND>
+seg[2] << <GND>
+seg[3] << <GND>
+seg[4] << <GND>
+seg[5] << <GND>
+seg[6] << <GND>
+
+
+|contador_assincrono_filtro|filtro:filtro
+clock_inicial => clock_final~reg0.CLK
+clock_inicial => S[0]~reg0.CLK
+clock_inicial => S[1]~reg0.CLK
+clock_inicial => S[2]~reg0.CLK
+clock_filtro => S[0]~reg0.DATAIN
+clock_final <= clock_final~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S[0] <= S[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= S[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= S[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= <GND>
+
+
+|contador_assincrono_filtro|contador_4_bits:contador_4_bits
+clock_final => S~reg0.CLK
+reset => S~reg0.ACLR
+S <= S~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|contador_assincrono_filtro|decodificador:decodificador
+A => Decoder0.IN0
+B => Decoder0.IN1
+C => Decoder0.IN2
+D => Decoder0.IN3
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clock_inicial'
+Slack : -2.828
+TNS   : -52.501
+
+Type  : Slow 1200mV 85C Model Setup 'divisor_frequencia:divisor_frequencia|clock_dividido'
+Slack : 0.210
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'divisor_frequencia:divisor_frequencia|clock_dividido'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clock_inicial'
+Slack : 0.642
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock_inicial'
+Slack : -3.000
+TNS   : -37.695
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_frequencia:divisor_frequencia|clock_dividido'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Setup 'clock_inicial'
+Slack : -2.505
+TNS   : -44.491
+
+Type  : Slow 1200mV 0C Model Setup 'divisor_frequencia:divisor_frequencia|clock_dividido'
+Slack : 0.297
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'divisor_frequencia:divisor_frequencia|clock_dividido'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clock_inicial'
+Slack : 0.587
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock_inicial'
+Slack : -3.000
+TNS   : -37.695
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_frequencia:divisor_frequencia|clock_dividido'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Fast 1200mV 0C Model Setup 'clock_inicial'
+Slack : -0.902
+TNS   : -12.818
+
+Type  : Fast 1200mV 0C Model Setup 'divisor_frequencia:divisor_frequencia|clock_dividido'
+Slack : 0.624
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divisor_frequencia:divisor_frequencia|clock_dividido'
+Slack : 0.206
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clock_inicial'
+Slack : 0.292
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock_inicial'
+Slack : -3.000
+TNS   : -31.950
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_frequencia:divisor_frequencia|clock_dividido'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------

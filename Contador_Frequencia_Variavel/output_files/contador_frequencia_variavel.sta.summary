@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clock_inicial'
+Slack : -4.000
+TNS   : -110.075
+
+Type  : Slow 1200mV 85C Model Setup 'seletor_frequencia:seletor_frequencia|clock_selecionado'
+Slack : 0.210
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'seletor_frequencia:seletor_frequencia|clock_selecionado'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clock_inicial'
+Slack : 0.464
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock_inicial'
+Slack : -3.000
+TNS   : -41.550
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'seletor_frequencia:seletor_frequencia|clock_selecionado'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Setup 'clock_inicial'
+Slack : -3.583
+TNS   : -98.034
+
+Type  : Slow 1200mV 0C Model Setup 'seletor_frequencia:seletor_frequencia|clock_selecionado'
+Slack : 0.297
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'seletor_frequencia:seletor_frequencia|clock_selecionado'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clock_inicial'
+Slack : 0.418
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock_inicial'
+Slack : -3.000
+TNS   : -41.550
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'seletor_frequencia:seletor_frequencia|clock_selecionado'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Fast 1200mV 0C Model Setup 'clock_inicial'
+Slack : -1.441
+TNS   : -38.072
+
+Type  : Fast 1200mV 0C Model Setup 'seletor_frequencia:seletor_frequencia|clock_selecionado'
+Slack : 0.624
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'seletor_frequencia:seletor_frequencia|clock_selecionado'
+Slack : 0.206
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clock_inicial'
+Slack : 0.212
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock_inicial'
+Slack : -3.000
+TNS   : -35.020
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'seletor_frequencia:seletor_frequencia|clock_selecionado'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------
